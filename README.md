@@ -1,7 +1,5 @@
 
 <body>
-	
-	
 </td><td align="right"><button class="button" onclick="javascript: window.location=&#39;?action=add&amp;user=1&amp;prs=3&#39;"> <i class="fas fa-plus"></i> Ajouter </button></td></tr></tbody></table>
 <table class="tablErp" id="tableERP" align="center">
 <caption class="bk-co">List distance</caption>
