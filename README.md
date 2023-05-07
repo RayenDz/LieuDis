@@ -1,45 +1,9 @@
-# LieuDis
-<!-- saved from url=(0065)http://105.96.0.195:2023/Gdistance.php?user=1&prs=3&find=&id=4492 -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<link rel="stylesheet" href="./Gdistance_files/style.css">
-<link rel="stylesheet" href="./Gdistance_files/icons.css">
-<style>
-body {background: transparent; font-family: "lucida grande", tahoma, verdana, arial, sans-serif; font-size: 14px;}
-</style>
-<script>
-    function bba(data){
-        window.location = "?action=sherch&lieuA=" + data + "&user=" + window.user.value + "&prs=" + window.prs.value;
-    }
-    
-    function datkm(data){
-        window.distance.innerHTML = data.value;
-        window.iddata.innerHTML = data.options[data.selectedIndex].getAttribute('data');
-    }
-    
-    function urls(obj){
-        var lieuB = window.iddata.innerHTML;
-        var lieuA = window.lieuA.value;
-        var distance = window.distance.innerHTML;
-        window.location="?action=edit&user=" + window.user.value + "&prs=" + window.prs.value + "&d=" + distance + "&a=" + lieuA + "&b=" + lieuB;
-    }
-</script>
-</head>
+
 <body>
-	<script>
-	//parent.window.frames['body1'].txtdashbord.innerHTML = "<il><li></li></ul>";
-	parent.window.frames['body1'].txtdashbord.innerHTML = "++++";
-	</script>
-	<table width="95%" align="center"><tbody><tr><td><input type="text" id="textSearch" name="find" value="" autocomplete="off" style="border: 2px solid #aaa;border-radius: 4px;margin: 2px 0;outline: none;padding: 3px;box-sizing: border-box;transition: 0.3s;font-size: 16px; background: #276495; color: #fff; width: 50%; height: 24px;">
-<i class="fas fa-search tbutton" style="cursor: pointer; color: #fff;" onclick="javascript: window.location=&#39;?find=&#39; + window.textSearch.value + &#39;&amp;user=1&amp;prs=3&#39;" alt="Trouve" title="Trouve"></i>
-</td><td align="right"><button class="button" onclick="javascript: window.location=&#39;?action=add&amp;user=1&amp;prs=3&#39;"> <i class="fas fa-plus"></i> Ajouter </button></td></tr></tbody></table><script>
-	var input = document.getElementById('textSearch');
-	input.addEventListener('keyup', function(event){
-		event.preventDefault();
-		if (event.keyCode === 13){
-			window.location='?find=' + window.textSearch.value + '&user=1&prs=3';
-		}
-	});
-	</script><table class="tablErp" id="tableERP" align="center">
+	
+	
+</td><td align="right"><button class="button" onclick="javascript: window.location=&#39;?action=add&amp;user=1&amp;prs=3&#39;"> <i class="fas fa-plus"></i> Ajouter </button></td></tr></tbody></table>
+<table class="tablErp" id="tableERP" align="center">
 <caption class="bk-co">List distance</caption>
 <thead><tr align="center"><th>Lieu A</th><th>Lieu B</th><th>Distance Klm</th><th></th><th></th></tr></thead>
 <tbody class="tbody">
